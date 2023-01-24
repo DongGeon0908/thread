@@ -29,7 +29,7 @@ class ThreadManagerUtils {
         /**
          * generate Executor Service
          *
-         * pool size는 pushList의 size와 동일하며, Thread를 직접 관리
+         * pool size를 직접 지정하여 관리
          */
         fun generateExecutor(threadNamePrefix: String, poolSize: Int): ExecutorService {
             /** ThreadNamePrefix 설정 */
