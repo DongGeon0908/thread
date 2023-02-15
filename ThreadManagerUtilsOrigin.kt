@@ -4,10 +4,10 @@ import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
 /**
- * ThreadManagerUtils
+ * ThreadManagerUtilsOrigin
  * - Thread 관리
  */
-class ThreadManagerUtils {
+class ThreadManagerUtilsOrigin {
     companion object {
         /**
          * getAllThreadsInfo
